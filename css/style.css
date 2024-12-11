@@ -18,7 +18,7 @@ body {
 }
 
 #header,  #abtsanta, #wishlisttitle {
-    background-image: url("img/christmas-2948851_1280.png");
+    background-image: url("../img/christmas-2948851_1280.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -68,7 +68,7 @@ a {
 }
 
 aside {
-    background-image: url("img/xmaslightsright.jpg");
+    background-image: url("../img/xmaslightsright.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
@@ -116,7 +116,7 @@ h3 {
 
 #magicofgiving {
     width: 70%;
-    background-image: url("img/xmaslightsleft.jpg");
+    background-image: url("../img/xmaslightsleft.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
@@ -171,7 +171,7 @@ h4 {
 } */
 
 .form {
-    background-image: url("img/pinecones.jpg");
+    background-image: url("../img/pinecones.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
