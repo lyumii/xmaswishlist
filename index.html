@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal&family=Playwrite+DE+LA+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <title>My Christmas Wishlist</title>
+</head>
+<body>
+    <header class="container" id="header">
+        <h1>All I want for Christmas...</h1>
+        <p> ... is presents!!!!</p>
+        <div class="line"></div>
+        <nav>
+            <ul>
+                <div><li><a href="#topthree">Gift Ideas</a></li></div>
+                <div><li><a href="#tosanta">My Christmas Wishlist</a></li></div>
+                <div><li><a href="#abtsanta">About <span>us</span> Santa</a></li></div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="topthree" class="topthree" >
+            <article class="container" id="magicofgiving">
+            <div>
+            <h2><img src="img/gift.png" alt="">The Magic of Giving </h2>
+            <p>Christmas is the season of joy, warmth, and the perfect gifts that light up smiles. Whether it's a thoughtful surprise or something from Santa's sleigh, giving gifts reminds us of the love we share.</p>
+            <h3><img src="img/christmas-tree mini.png" alt="xmas tree">Top 3 Christmas Gifts This Year:</h3>
+            <ol>
+                <li><div>
+                    <img src="img/gadget1.jpg" alt="gadgets"><span class="bolded">Smart Home Gadgets</span></div>
+                    <p>From smart speakers to video doorbells, tech gifts are making homes merrier and more connected.</p></li>
+                
+                <li><div>
+                    <img src="img/mug1.jpg" alt="cute mug"><span class="bolded">Personalized Gifts</span></div>
+                    <p>Custom mugs, blankets, or jewelry add a heartfelt touch that's always in style.</p></li>
+                
+                <li><div>
+                    <img src="img/baking1.jpg" alt="baking cookies"><span class="bolded">DIY Kits</span></div> 
+                    <p>Craft kits for candles, painting, or baking bring creativity and joy into the holiday season.</p></li>
+                
+            </ol>
+            <p>Spread some cheer and make this Christmas unforgettable!</p>
+            </div>
+            </article>
+            <aside class="container" id="aside">
+                <div>
+                <h2><img src="img/christmas-tree mini.png" alt="">More Christmas Gift Ideas</h2>
+                <ul>
+                    <div><li><span class="bolded small">Tech Lovers:</span> Wireless earbuds, portable chargers, or smartwatch bands.</li></div>
+                    <div><li><span class="bolded small">Foodies:</span> Gourmet gift baskets, cooking classes, or a fun waffle maker.</li></div>
+                    <div><li><span class="bolded small">Fitness Fans:</span> Yoga mats, resistance bands, or stylish water bottles.</li></div>
+                    <div><li><span class="bolded small">Kids:</span> STEM toys, interactive books, or plushies of their favorite characters.</li></div>
+                    <div><li><span class="bolded small">Self-Care: </span>Scented candles, bath bombs, or cozy robes.</li></div>
+                    <div><li><span class="bolded small">Pet Owners:</span> Customized pet tags, toys, or festive sweaters for their furry friends.</li></div>
+                    <div><li><span class="bolded small">Creative Types:</span> Painting kits, sketchbooks, or DIY embroidery sets.</li></div>
+                    <div><li><span class="bolded small">Homebodies:</span> Throw blankets, decorative pillows, or board games.</li></div>
+                </ul></div>
+            </aside>
+        </section>
+        <section class="container" id="wishlisttitle">
+            <h2>Christmas Wishlist <img src="img/gift.png" alt=""></h2>  
+        </section>
+        <section id="tosanta" class="tosanta">
+            <!-- <div><img src="img/tree.jpg" alt="festive tree" class="tree"></div> -->
+            <div class="form"><form action="" id="wishlistForm" >
+            <fieldset class="abtyou">
+                <legend>All about you</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="adress">Address</label>
+                <input type="text" id="adress">
+            </fieldset>
+            <fieldset>
+                <legend>Have you been naughty or nice?</legend>
+                <input type="radio" id="naughty" name="behavior"><label for="naughty">Naughty <img src="img/devil.png" alt="devil"></label>
+                <input type="radio" id="nice" name="behavior"><label for="nice">Nice <img src="img/angel.png" alt="nice"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Wishlist</legend>
+                <label for="wishlistItem">Add Item:</label>
+                <input type="text" id="wishlistItem" name="wishlistItem">
+                <button type="button" id="addItem">Add to Wishlist</button>
+
+                <ul id="wishlist">
+                    <li>Magic and Sparkles!</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Your letter to Santa</legend>
+                <textarea name="letter" id="letter" cols="60" rows="13">Dear Santa...</textarea>
+            </fieldset>
+            <button type="submit" id="submitToSanta" class="submittosanta">Toss a cookie to your Santa</button>
+            </form></div>
+        </section>
+    </main>
+    <footer id="abtsanta" class="container">
+        <h4>About Santa</h4>
+        <p>Spotted any reindeer tracks? Let Santa know!</p>
+        <address>Santa's Workshop, 1 Frosty Lane, North Pole</address>
+        <p>Wishes welcome all year-round!</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(59, 65, 57) ;
+    width: 85%;
+    margin: auto;
+}
+
+.container {
+    background-color: rgba(215, 226, 204, 0.3);
+    border: 1px, solid, rgb(13, 14, 13);
+    border-radius: 0.5em;
+    margin: 10px 5px;
+}
+
+#header,  #abtsanta, #wishlisttitle {
+    background-image: url("/img/christmas-2948851_1280.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(215, 226, 204, 0.801);
+    background-blend-mode: overlay;
+    box-shadow: 0 0 20px 300px rgba(130, 135, 128, 0.63) inset;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Metal", sans-serif;
+    color: rgb(27, 46, 46);
+}
+
+header p {
+    text-align: right;
+    width: 40%;
+    margin: auto;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.line {
+    margin: auto 5px;
+    border: 1px solid black;
+}
+
+nav ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10px 20px;
+}
+
+a {
+    color: rgb(27, 46, 46);
+    text-decoration: none;
+
+}
+
+.topthree {
+    display: flex;
+    gap: 1rem;
+}
+
+aside {
+    background-image: url("/img/xmaslightsright.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-position: right;
+    font-size: 16px;
+    width: 30%;
+    height: auto;
+    box-shadow: 0 0 20px 300px rgba(130, 135, 128, 0.63) inset;
+
+}
+
+#aside ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1.5em 1.5em;
+    text-decoration: underline;
+    color: rgb(27, 46, 46);
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1.5em 1.5em;
+    color: rgb(27, 46, 46);
+}
+
+.topthree p {
+    font-size: 1em;
+    margin: 20px 0 20px 20px;
+}
+
+.bolded {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+#magicofgiving {
+    width: 70%;
+    background-image: url("/img/xmaslightsleft.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-position: left;
+    box-shadow: 0 0 20px 500px rgba(130, 135, 128, 0.63) inset;
+}
+
+ol li {
+    padding: 20px;
+    margin: 20px;
+}
+
+li div {
+    display: flex;
+    justify-items: center;
+    gap: 25px;
+}
+
+ol li {
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+h4 {
+    font-size: 1.2em;
+    padding: 1.5em 1.5em;
+    color: rgb(27, 46, 46);
+}
+
+#abtsanta p, address {
+    margin: 15px;
+}
+
+.tosanta {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+    height: 100%;
+
+}
+
+/* .tosanta div {
+    flex: 1;    
+    border: 2px solid black;
+    border-radius: 5px;
+} */
+
+/* .tosanta img {
+    width: auto;
+    height: 100%;
+} */
+
+.form {
+    background-image: url("/img/pinecones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-position: right;
+    font-size: 16px;
+    height: auto;
+    box-shadow: 0 0 20px 300px rgba(130, 135, 128, 0.815) inset;
+
+}
+
+fieldset, .submittosanta {
+    width: 60%;
+    margin: auto;
+    display: block;
+
+}
+
+.tosanta .form {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    height: 100%;
+    justify-content: center;
+    margin: 5px;
+    color: rgb(27, 46, 46);
+    font-weight: 600;
+}
+
+.abtyou {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#naughty, #nice {
+    font-size: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+#wishlist {
+    margin: 20px;
+}
+
+ul li {
+    text-transform: capitalize;
+}
