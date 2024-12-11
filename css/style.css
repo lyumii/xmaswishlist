@@ -24,7 +24,7 @@ body {
     background-position: center;
     background-color: rgba(215, 226, 204, 0.801);
     background-blend-mode: overlay;
-    box-shadow: 0 0 20px 300px rgba(130, 135, 128, 0.63) inset;
+    box-shadow: 0 0 20px 1000px rgba(218, 214, 209, 0.664) inset;
 }
 
 h1 {
@@ -76,7 +76,7 @@ aside {
     font-size: 16px;
     width: 30%;
     height: auto;
-    box-shadow: 0 0 20px 300px rgba(130, 135, 128, 0.63) inset;
+    box-shadow: 0 0 20px 1000px rgba(218, 214, 209, 0.664) inset;
 
 }
 
@@ -121,7 +121,7 @@ h3 {
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-position: left;
-    box-shadow: 0 0 20px 500px rgba(130, 135, 128, 0.63) inset;
+    box-shadow: 0 0 20px 1000px rgba(218, 214, 209, 0.664) inset;
 }
 
 ol li {
@@ -171,14 +171,14 @@ h4 {
 } */
 
 .form {
-    background-image: url("https://github.com/lyumii/xmaswishlist/blob/main/img/pinecones.jpg");
+    background-image: url("../img/pinecones.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-position: right;
     font-size: 16px;
     height: auto;
-    box-shadow: 0 0 20px 300px rgba(130, 135, 128, 0.815) inset;
+    box-shadow: 0 0 20px 1000px rgba(218, 214, 209, 0.664) inset;
 
 }
 
@@ -200,15 +200,27 @@ fieldset, .submittosanta {
     font-weight: 600;
 }
 
-.abtyou {
+.abtyou, .behavior {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 legend {
     text-align: center;
     font-size: 1.2rem;
 }
+
+fieldset {
+    border: 1px solid black;
+}
+
+input, textarea {
+    background-color: rgba(41, 49, 35, 0.007); 
+    color: black;
+    font-size: 1em;
+}
+
 
 #naughty, #nice {
     font-size: 1.5rem;
@@ -224,4 +236,10 @@ textarea {
 
 ul li {
     text-transform: capitalize;
+}
+
+button {
+    background-color: rgb(71, 78, 75); 
+    color: antiquewhite;
+    padding: 5px;
 }
