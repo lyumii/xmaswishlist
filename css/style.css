@@ -56,6 +56,10 @@ nav ul {
     padding: 10px 20px;
 }
 
+nav span {
+    text-decoration: line-through;
+}
+
 a {
     color: rgb(27, 46, 46);
     text-decoration: none;
@@ -234,7 +238,7 @@ textarea {
     margin: 20px;
 }
 
-ul li {
+fieldset ul li {
     text-transform: capitalize;
 }
 
