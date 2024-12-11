@@ -5,6 +5,12 @@ const ul = document.querySelector("#wishlist");
 const addButton = document.querySelector("#addItem");
 addButton.addEventListener("click", addItem);
 
+input.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        addItem(event);
+    }
+})
+
 const naughty = document.querySelector("#naughty");
 naughty.addEventListener("click", () => {
     alert("Only coal for you!");
